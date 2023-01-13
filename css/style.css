@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    background-color: #F1F2F4;
+}
+
+.page-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 67px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+main {
+    height: calc(100vh - (67px + 222px));
+}
+
+.page-footer {
+    height: 222px;
+    background-color: #151C22;
+}
