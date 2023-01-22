@@ -3,13 +3,22 @@ body {
     background-color: #F1F2F4;
 }
 
+.container {
+    width: 1200px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 .page-header {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 67px;
     background-color: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.page-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 67px;
 }
 
 main {
@@ -19,4 +28,21 @@ main {
 .page-footer {
     height: 222px;
     background-color: #151C22;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    border: 1px solid;
+    padding: 0;
+    margin: 0;
+}
+
+ul li:nth-child(2),
+ul li:nth-child(3) {
+    margin-left: 30px;
+}
+
+img {
+    display: block;
 }
