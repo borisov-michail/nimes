@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: #F1F2F4;
     color: #151C22;
-    font-family: 'Josefin Sans', sans-serif !important;
+    font-family: 'Unbounded', cursive;
 }
 
 .container {
@@ -111,4 +111,13 @@ section .row-bottom{
 
 .page-footer {
     margin-top: 50px;
+}
+
+.news .right-wrapper {
+    background-color: #F1F2F4;
+    border: 1px dashed #000;
+    width: 470px;
+    height: 370px;
+    padding: 20px;
+    box-sizing: border-box;
 }
