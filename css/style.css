@@ -297,3 +297,16 @@ main {
 .page-footer .row-bottom {
     margin-top: 0 !important;
 }
+
+.more-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 219px;
+    height: 64px;
+    font-size: 16px;
+     color: #fff;
+     text-decoration: none;
+     background-color: #151C22;
+     margin: 70px auto 0;
+}
